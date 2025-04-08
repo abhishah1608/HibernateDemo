@@ -1,0 +1,57 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.abhi</groupId>
+  <artifactId>DemoProj</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>DemoProj</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-core -->
+	<!-- https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-core -->
+<dependency>
+    <groupId>org.hibernate.orm</groupId>
+    <artifactId>hibernate-core</artifactId>
+    <version>6.5.0.Final</version>
+</dependency>	
+	<dependency>
+    	<groupId>com.microsoft.sqlserver</groupId>
+    	<artifactId>mssql-jdbc</artifactId>
+    	<version>12.8.1.jre11</version>
+    	<scope>compile</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.redisson/redisson -->
+<!-- https://mvnrepository.com/artifact/com.github.ben-manes.caffeine/caffeine -->
+	<dependency>
+    	<groupId>com.github.ben-manes.caffeine</groupId>
+    	<artifactId>caffeine</artifactId>
+    	<version>3.2.0</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/com.github.ben-manes.caffeine/jcache -->
+	<dependency>
+    	<groupId>com.github.ben-manes.caffeine</groupId>
+    	<artifactId>jcache</artifactId>
+    	<version>3.2.0</version>
+	</dependency>
+	
+	<dependency>
+    	<groupId>org.hibernate.orm</groupId>
+    	<artifactId>hibernate-jcache</artifactId>
+    	<version>6.5.0.Final</version>
+	</dependency>
+  </dependencies>
+</project>
